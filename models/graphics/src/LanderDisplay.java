@@ -221,12 +221,6 @@
          left_plume_1.y  = new double[] {-6.3, -1.5, -1.5};
          left_plume_1.n = 3;
  
-         stage_2_engine_1 = new ScenePoly();
-         stage_2_engine_1.color = new Color(255,100,100);
-         stage_2_engine_1.x = new double[] {1.27, 1.3, 1.175, 1.205};
-         stage_2_engine_1.y  = new double[] {-1.125, -1.5, -1.5, -1.125};
-         stage_2_engine_1.n = 4;
- 
          right_plume_3 = new ScenePoly();
          right_plume_3.color = new Color(255,255,255);
          right_plume_3.x = new double[] {1.57, 1.6, 1.47};
@@ -238,6 +232,18 @@
          stage_2_engine_2.x = new double[] {1.42, 1.45, 1.325, 1.355};
          stage_2_engine_2.y  = new double[] {-1.125, -1.5, -1.5, -1.125};
          stage_2_engine_2.n = 4;
+
+         stage_2_engine_1 = new ScenePoly();
+         stage_2_engine_1.color = new Color(255,100,100);
+         stage_2_engine_1.x = new double[] {-0.58, -0.625, -0.375, -0.42};
+         stage_2_engine_1.y  = new double[] {-1.0, -1.5, -1.5, -1.0};
+         stage_2_engine_1.n = 4;
+
+         stage_2_engine_3 = new ScenePoly();
+         stage_2_engine_3.color = new Color(255,100,100);
+         stage_2_engine_3.x = new double[] {0.42, 0.375, 0.625, 0.58};
+         stage_2_engine_3.y  = new double[] {-1.0, -1.5, -1.5, -1.0};
+         stage_2_engine_3.n = 4;
  
          left_bottom_rcs_plume = new ScenePoly();
          left_bottom_rcs_plume.color = new Color(255,255,255);
@@ -402,6 +408,7 @@
          drawScenePoly(g2d, stage_1_engine_3, landerAngle, landerPos[0], landerPos[1]);
          drawScenePoly(g2d, stage_2_engine_1, landerAngle, landerPos[0], landerPos[1]);
          drawScenePoly(g2d, stage_2_engine_2, landerAngle, landerPos[0], landerPos[1]);
+         drawScenePoly(g2d, stage_2_engine_3, landerAngle, landerPos[0], landerPos[1]);
          drawScenePoly(g2d, stage_2_engine_3, landerAngle, landerPos[0], landerPos[1]);
          drawScenePoly(g2d, docking_ring, landerAngle, landerPos[0], landerPos[1]);
          drawScenePoly(g2d, flame_2, landerAngle, landerPos[0], landerPos[1]);
