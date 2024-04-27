@@ -251,12 +251,6 @@
          left_bottom_rcs_plume.y  = new double[] { -0.2, -0.2, -0.4, -0.4 };
          left_bottom_rcs_plume.n = 4;
  
-         stage_2_engine_3 = new ScenePoly();
-         stage_2_engine_3.color = new Color(255,100,100);
-         stage_2_engine_3.x = new double[] {1.57, 1.6, 1.475, 1.505};
-         stage_2_engine_3.y  = new double[] {-1.125, -1.5, -1.5, -1.125};
-         stage_2_engine_3.n = 4;
- 
          right_bottom_rcs_plume = new ScenePoly();
          right_bottom_rcs_plume.color = new Color(255,255,255);
          right_bottom_rcs_plume.x = new double[]  {  1.1,  1.2,  1.24, 1.06 };
