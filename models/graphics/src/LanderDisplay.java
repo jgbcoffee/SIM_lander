@@ -407,9 +407,9 @@
          drawScenePoly(g2d, flame_2, landerAngle, landerPos[0], landerPos[1]);
  
          if ( rcs_state > 0) {
-             drawScenePoly(g2d, left_plume_1, landerAngle, landerPos[0], landerPos[1]);
-         } else if ( rcs_state < 0) {
              drawScenePoly(g2d, right_plume_3, landerAngle, landerPos[0], landerPos[1]);
+         } else if ( rcs_state < 0) {
+             drawScenePoly(g2d, left_plume_1, landerAngle, landerPos[0], landerPos[1]);
          }
  
          // ===============================================================================
