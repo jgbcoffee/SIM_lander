@@ -1,7 +1,7 @@
 exec(open("./Modified_data/realtime.py").read())
 
 dyn.lander.pos[0] = 0
-dyn.lander.pos[1] = 1.8
+dyn.lander.pos[1] = 1.5
 dyn.lander.vel[0] = 0.0
 dyn.lander.vel[1] = 0.0
 
